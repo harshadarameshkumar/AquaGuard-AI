@@ -1,0 +1,16 @@
+# AquaGuard AI: Deep Neural Network-Based Water Quality Prediction and Contamination Risk Classification
+# Core Dependencies for Academic Machine Learning & Deep Learning Pipeline
+
+numpy>=1.24.0,<2.1.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+reportlab>=3.6.0
+joblib>=1.3.0
+scipy>=1.10.0
+# Deep Learning framework: TensorFlow / Keras
+tensorflow>=2.13.0; sys_platform != 'darwin' or platform_machine != 'arm64'
+# Optional Explainable AI
+shap>=0.42.0
+jupyter>=1.0.0
